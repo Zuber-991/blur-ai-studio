@@ -1,0 +1,17 @@
+# Python virtual environment
+backend/venv/
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+.env.*
+
+# Temporary files
+uploads/
+outputs/
+.vscode/

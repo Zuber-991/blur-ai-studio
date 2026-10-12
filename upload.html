@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Upload Video | BlurAI Studio</title>
+
+<link rel="stylesheet" href="css/upload.css">
+
+<script defer src="js/upload.js"></script>
+
+</head>
+
+<body>
+
+<div class="background"></div>
+
+<nav>
+
+<div class="logo">
+
+BlurAI Studio
+
+</div>
+
+<a href="index.html">
+
+Home
+
+</a>
+
+</nav>
+
+<div class="container">
+
+<h1>
+
+Upload Your Video
+
+</h1>
+
+<p>
+
+Upload your video and tell AI exactly what should be blurred.
+
+</p>
+
+<div class="upload-card">
+
+<h2>
+
+🎥 Upload Video
+
+</h2>
+
+<input type="file" id="videoInput" accept="video/*">
+
+<video id="videoPreview" controls></video>
+
+</div>
+
+<div class="reference-card">
+
+<h2>
+
+🖼 Upload Reference Face / Object
+
+</h2>
+
+<input type="file" id="imageInput" accept="image/*">
+
+<img id="imagePreview">
+
+</div>
+
+<div class="command-card">
+
+<h2>
+
+💬 AI Command
+
+</h2>
+
+<input
+type="text"
+id="command"
+placeholder="Example: Blur the man wearing the black shirt">
+
+</div>
+
+<div class="blur-card">
+
+<h2>
+
+Blur Style
+
+</h2>
+
+<select id="blurStyle">
+
+<option>Gaussian Blur</option>
+
+<option>Pixel Blur</option>
+
+<option>Mosaic Blur</option>
+
+<option>Black Box</option>
+
+</select>
+
+</div>
+
+<button id="startBtn">
+
+🚀 Start AI Processing
+
+</button>
+
+</div>
+
+</body>
+
+</html>

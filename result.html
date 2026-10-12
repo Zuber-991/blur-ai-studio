@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>BlurAI Studio - Result</title>
+
+<link rel="stylesheet" href="css/result.css">
+
+<script defer src="js/result.js"></script>
+
+</head>
+
+<body>
+
+<div class="background"></div>
+
+<nav>
+
+<h2>BlurAI Studio</h2>
+
+<a href="index.html">Home</a>
+
+</nav>
+
+<div class="container">
+
+<h1>✅ AI Processing Completed</h1>
+
+<p>Your video has been successfully processed.</p>
+
+<div class="video-section">
+
+<div class="video-card">
+
+<h3>Original Video</h3>
+
+<video id="originalVideo" controls></video>
+
+</div>
+
+<div class="video-card">
+
+<h3>Blurred Video</h3>
+
+<video id="blurredVideo" controls></video>
+
+</div>
+
+</div>
+
+<div class="report">
+
+<h2>AI Report</h2>
+
+<p><strong>Command :</strong> <span id="command"></span></p>
+
+<p><strong>Blur Style :</strong> <span id="blur"></span></p>
+
+<p><strong>Status :</strong> Completed Successfully</p>
+
+</div>
+
+<div class="buttons">
+
+<button id="download">
+
+⬇ Download Video
+
+</button>
+
+<button onclick="window.location='upload.html'">
+
+Process Another
+
+</button>
+
+</div>
+
+</div>
+
+</body>
+
+</html>

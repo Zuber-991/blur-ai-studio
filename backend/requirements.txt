@@ -1,0 +1,8 @@
+flask
+flask-cors
+opencv-python
+ultralytics
+moviepy
+numpy
+pillow
+ffmpeg-python
